@@ -16,3 +16,12 @@ let largoPared = prompt("Ingrese el alto de la pared en metros:");
 let areaPared = parseFloat(anchoPared) * parseFloat(largoPared);
 
 console.log("El area de la pared es de:", areaPared);
+
+/*Ejercisio 3*/
+
+let largoPotrero = prompt("Ingrese el largo del potrero:");
+let anchoPotrero = prompt("Ingrese el ancho del potrero:");
+
+let perimetroPotrero = parseFloat(2) * (parseFloat(largoPotrero) + parseFloat(anchoPotrero));
+
+console.log("El perimetro del potrero es de:", perimetroPotrero);
