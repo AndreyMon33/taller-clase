@@ -33,3 +33,11 @@ let temperaturaFahrenheit = prompt("Ingrese la temperatura en °F(Fahrenhaint):"
 let temperaturaCelsius = (parseFloat(temperaturaFahrenheit) - parseFloat(32)) / parseFloat(1.8);
 
 console.log("La temperatura en °C(Celsius) es:", temperaturaCelsius);
+
+/*Ejercisio 5*/
+
+let anho = prompt("Ingrese su año de nacimmiento:");
+
+let anhoActual = parseFloat(2024) - parseFloat(anho);
+
+console.log("Siendo el 2024 tu edad es de:", anhoActual);
