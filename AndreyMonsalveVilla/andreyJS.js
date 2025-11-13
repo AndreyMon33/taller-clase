@@ -25,3 +25,11 @@ let anchoPotrero = prompt("Ingrese el ancho del potrero:");
 let perimetroPotrero = parseFloat(2) * (parseFloat(largoPotrero) + parseFloat(anchoPotrero));
 
 console.log("El perimetro del potrero es de:", perimetroPotrero);
+
+/*Ejercisio 4*/
+
+let temperaturaFahrenheit = prompt("Ingrese la temperatura en °F(Fahrenhaint):");
+
+let temperaturaCelsius = (parseFloat(temperaturaFahrenheit) - parseFloat(32)) / parseFloat(1.8);
+
+console.log("La temperatura en °C(Celsius) es:", temperaturaCelsius);
