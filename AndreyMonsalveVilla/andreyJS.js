@@ -67,3 +67,11 @@ let precioHorasTrabajadas = prompt("Ingresa la cantidad de horas trabajadas:");
 let totalPrecioHoras = parseFloat(valorHorasTrabajadas) * parseFloat(precioHorasTrabajadas);
 
 console.log("El total de tu salario en base a tus horas trabajadas es:", totalPrecioHoras);
+
+/*Ejercisio 9*/
+
+let distanciaMillas = prompt("Ingrese la distancia que va a recorrer en millas:");
+
+let distanciaKilometros = parseFloat(distanciaMillas) * parseFloat(1.60934);
+
+console.log("La distancia a recorrer en kilometros es de:", distanciaKilometros);
