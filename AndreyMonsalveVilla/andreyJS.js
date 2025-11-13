@@ -58,3 +58,12 @@ let nota3 = prompt("Ingresa tu tercera nota en una escala del 0 al 5:");
 let promedioNotas = (parseFloat(nota1) + parseFloat(nota2) + parseFloat(nota3)) / parseFloat(3);
 
 console.log("Tu promedio es:", promedioNotas);
+
+/*Ejercisio 8*/
+
+let valorHorasTrabajadas = prompt("Ingrese el valor de las horas:");
+let precioHorasTrabajadas = prompt("Ingresa la cantidad de horas trabajadas:");
+
+let totalPrecioHoras = parseFloat(valorHorasTrabajadas) * parseFloat(precioHorasTrabajadas);
+
+console.log("El total de tu salario en base a tus horas trabajadas es:", totalPrecioHoras);
