@@ -48,3 +48,13 @@ let nombreUsuario = prompt("¿Cual es tu nombre?");
 let apellidoUsuario = prompt("¿Cual es tu apellido?");
 
 console.log("Bienvenido", nombreUsuario, apellidoUsuario, "Disfruta tu tiempo en la pagina");
+
+/*Ejercisio 7*/
+
+let nota1 = prompt("Ingresa tu primera nota en una escala del 0 al 5:");
+let nota2 = prompt("Ingresa tu segunda nota en una escala del 0 al 5:");
+let nota3 = prompt("Ingresa tu tercera nota en una escala del 0 al 5:");
+
+let promedioNotas = (parseFloat(nota1) + parseFloat(nota2) + parseFloat(nota3)) / parseFloat(3);
+
+console.log("Tu promedio es:", promedioNotas);
