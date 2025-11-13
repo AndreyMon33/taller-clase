@@ -2,8 +2,10 @@
 
 ````
 1 - Forkear el repositorio
-2 - Hacer un commit por cada ejercicio
-3 - Al finalizar todos los ejercicios lanzar un Pull Request
+2 - Clonar el repo forkeado
+3 - Abrir el proyecto y crear una carpeta en conveción PascalCase con el nombre de cada uno
+4 - Hacer un commit por cada ejercicio (cada commit debe ser descriptivo y entendible)
+5 - Al finalizar todos los ejercicios lanzar un Pull Request
 
 ````
 
