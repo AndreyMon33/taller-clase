@@ -41,3 +41,10 @@ let anho = prompt("Ingrese su año de nacimmiento:");
 let anhoActual = parseFloat(2024) - parseFloat(anho);
 
 console.log("Siendo el 2024 tu edad es de:", anhoActual);
+
+/*Ejercisio 6*/
+
+let nombreUsuario = prompt("¿Cual es tu nombre?");
+let apellidoUsuario = prompt("¿Cual es tu apellido?");
+
+console.log("Bienvenido", nombreUsuario, apellidoUsuario, "Disfruta tu tiempo en la pagina");
